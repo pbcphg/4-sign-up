@@ -29,7 +29,7 @@ main {
 
 
 .bottom-links > span {
-    
+
 }
 
 
@@ -37,4 +37,12 @@ main {
     width: 60%;
     float: left;
     background-color: red;
+}
+
+.close {
+
+}
+
+.form {
+
 }
