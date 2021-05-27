@@ -9,8 +9,40 @@ main {
     margin-left: calc(50% - 400px);
 }
 
-div {
-    width: 50%;
+.left-column {
+    width: 40%;
     float: left;
     background-color: yellow;
+}
+
+.main-title {
+    font-size: 60px;
+}
+
+.bottom-links {
+    
+}
+
+.bottom-links > a {
+
+}
+
+
+.bottom-links > span {
+
+}
+
+
+.right-column {
+    width: 60%;
+    float: left;
+    background-color: red;
+}
+
+.close {
+
+}
+
+.form {
+
 }
