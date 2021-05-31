@@ -1,3 +1,11 @@
+body,
+body * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+}
+
 body {
 
 }
@@ -12,6 +20,7 @@ main {
 .left-column {
     width: 40%;
     float: left;
+    padding: 40px;
     background-color: yellow;
 }
 
@@ -37,6 +46,7 @@ main {
     width: 60%;
     float: left;
     background-color: red;
+    padding: 60px;
 }
 
 .close {
