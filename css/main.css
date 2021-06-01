@@ -7,7 +7,7 @@ body * {
 }
 
 body {
-
+    background-color: aquamarine;
 }
 
 main {
@@ -21,11 +21,14 @@ main {
     width: 40%;
     float: left;
     padding: 40px;
-    background-color: yellow;
+    background-image: url(../img/hill.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .main-title {
     font-size: 60px;
+    margin-bottom: 350px;
 }
 
 .bottom-links {
@@ -45,7 +48,7 @@ main {
 .right-column {
     width: 60%;
     float: left;
-    background-color: red;
+    background-color: white;
     padding: 60px;
 }
 
