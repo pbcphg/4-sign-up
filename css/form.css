@@ -3,7 +3,6 @@
     flex-direction: column;
     gap: 40px;
     width: 100%;
-    background-color: yellow;
   }
   .form-row {
     display: flex;
@@ -24,7 +23,6 @@
     font-size: 20px;
     border: none;
     border-bottom: 1px solid #ccc;
-    background-color: yellow;
   }
   .form-row > input::placeholder {
     color: #ccc;

@@ -53,15 +53,12 @@ main {
 
 .close {
   display: inline-block;
-  /* width: 60px; */
-  /* height: 60px; */
+  width: 60px;
+  height: 60px;
   line-height: 54px;
   text-align: center;
   font-size: 30px;
-  background-color: red;
   position: absolute;
-  right: 50px;
-  left: 150px;
-  top: 200px;
-  bottom: 100px;
+  right: 0;
+  top: 0;
 }
