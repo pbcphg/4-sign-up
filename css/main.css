@@ -8,15 +8,27 @@ body * {
 }
 
 body {
-  background-color: #7dbccd;
+  background-color: blue;
+}
+
+.background {
+  background-image: url(../img/hill.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  filter: blur(20px);
+  height: 100vh;
+  width: 100%;
+  display: inline-block;
 }
 
 main {
   display: inline-block;
   width: 800px;
-  margin-top: 70px;
-  margin-left: calc(50% - 400px);
-  margin-bottom: 2000px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .left-column {
@@ -29,14 +41,22 @@ main {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  position: absolute;
+  top: 30px;
+  bottom: 30px;
 }
 
 .bottom-links {
+  position: absolute;
+  left: 40px;
+  right: 40px;
+  bottom: 20px
 }
 .bottom-links > a {
   color: #fff;
 }
 .bottom-links > span {
+
 }
 
 .main-title {
@@ -45,7 +65,7 @@ main {
 
 .right-column {
   width: 60%;
-  float: left;
+  float: right;
   padding: 60px;
   background-color: #fff;
   position: relative;
