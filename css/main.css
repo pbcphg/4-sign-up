@@ -47,11 +47,16 @@ main {
 }
 
 .bottom-links {
+  position: absolute;
+  left: 40px;
+  right: 40px;
+  bottom: 20px
 }
 .bottom-links > a {
   color: #fff;
 }
 .bottom-links > span {
+
 }
 
 .main-title {
